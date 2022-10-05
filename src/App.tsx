@@ -1,5 +1,11 @@
+import Auth from "./views/Auth";
+
 function App() {
-  return <div>App</div>;
+  return (
+    <div className="w-full" data-theme="light">
+      <Auth />
+    </div>
+  );
 }
 
 export default App;
