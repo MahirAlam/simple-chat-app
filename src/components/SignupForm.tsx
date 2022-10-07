@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 
 import { useState } from "react";
+import { FaUserPlus } from "react-icons/fa";
 import { Props } from "../types/loginTypes";
 
 function SignupForm({ changeWantLogin, addFormData }: Props) {
@@ -125,7 +126,8 @@ function SignupForm({ changeWantLogin, addFormData }: Props) {
           className="btn text-base btn-primary btn-block mt-5"
           type="submit"
         >
-          &nbsp;Log In
+          <FaUserPlus />
+          &nbsp;Sign Up
         </button>
       </form>
     </div>

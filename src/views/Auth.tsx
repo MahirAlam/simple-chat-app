@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import LoginForm from "~/components/LoginForm";
-import SignupForm from "~/components/SignupForm";
+import LoginForm from "../components/LoginForm";
+import SignupForm from "../components/SignupForm";
 
 function Auth() {
   const [wantLogin, setWantLogin] = useState(true);
@@ -10,7 +10,7 @@ function Auth() {
   }, [formData]);
 
   return (
-    <div>
+    <div className="h-full">
       {wantLogin ? (
         <LoginForm changeWantLogin={setWantLogin} addFormData={setFormData} />
       ) : (

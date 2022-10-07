@@ -6,3 +6,31 @@
   font-family: "Alkalami", serif;
   src: url("https://fonts.googleapis.com/css2?family=Alkalami&display=swap");
 }
+
+aside.EmojiPickerReact.epr-main {
+  width: 100% !important;
+  --epr-hover-bg-color: hsla(var(--b2) / var(--tw-bg-opacity)) !important;
+  --epr-focus-bg-color: hsla(var(--b2) / var(--tw-bg-opacity)) !important;
+  max-width: 100%;
+  @apply bg-base-300 border-none rounded-none z-10 max-h-80;
+}
+
+.EmojiPickerReact .epr-category-nav {
+  @apply py-1 space-x-1 px-2 fill-base-content;
+}
+
+.EmojiPickerReact li.epr-emoji-category > .epr-emoji-category-label {
+  @apply bg-base-300/20 text-base-content font-semibold font-sans;
+}
+
+.EmojiPickerReact .epr-header .epr-header-overlay {
+  @apply hidden mb-2;
+}
+
+.EmojiPickerReact .epr-search-container input.epr-search {
+  @apply bg-base-200 focus:bg-base-200 border-none focus:border-none pl-9 text-base-content focus:ring-2;
+}
+
+.EmojiPickerReact button.epr-btn.epr-emoji.epr-visible {
+  @apply hover:bg-base-200 focus:bg-base-200 rounded-md my-1;
+}

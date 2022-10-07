@@ -14,7 +14,7 @@ function LoginForm({ changeWantLogin, addFormData }: Props) {
     e.preventDefault();
   };
   return (
-    <div className="bg-base-200 flex items-center h-screen flex-col justify-center">
+    <div className="bg-base-200 flex items-center h-full flex-col justify-center">
       <div className="mb-20">
         <h2 className="text-4xl text-base-content font-['Open_Sans']">
           Welcome Back&nbsp;
